@@ -27,7 +27,9 @@
     "supertest": "2.0.1"
   },
   "scripts": {
-    "test": "grunt --verbose"
+    "test": "grunt --verbose",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "async": "2.1.4",
@@ -62,15 +64,17 @@
     "underscore": "1.8.3",
     "formidable": "1.0.17",
     "kerberos": "~0.0",
-    "properties-parser":"0.3.1",
-    "external-ip":"0.2.4",
-    "escape-html":"1.0.3",
-    "bluebird":"3.4.6",
-    "mcc-mnc-list":"1.0.58",
-    "yamljs":"0.2.8"
+    "properties-parser": "0.3.1",
+    "external-ip": "0.2.4",
+    "escape-html": "1.0.3",
+    "bluebird": "3.4.6",
+    "mcc-mnc-list": "1.0.58",
+    "yamljs": "0.2.8",
+    "snyk": "^1.316.1"
   },
   "jshintConfig": {
     "esversion": 6,
     "node": true
-  }
+  },
+  "snyk": true
 }
