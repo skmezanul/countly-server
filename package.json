@@ -45,7 +45,7 @@
     "basic-auth": "1.1.0",
     "body-parser": "1.15.2",
     "geoip-lite": "1.1.8",
-    "jimp": "0.2.27",
+    "jimp": "0.3.7",
     "later": "^1.1.6",
     "moment": "1.7.2",
     "moment-isocalendar": "0.1.0",
