@@ -56,7 +56,7 @@
     "nodemailer-smtp-transport": "2.7.2",
     "nodemailer-smtp-pool": "2.8.2",
     "nodemailer-sendmail-transport": "1.0.0",
-    "request": "2.79.0",
+    "request": "2.87.0",
     "string": "3.3.3",
     "time": "0.11.4",
     "underscore": "1.8.3",
